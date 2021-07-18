@@ -29,6 +29,37 @@ header{
 }
 
 
+/* Main Part */
+
+/* blogs section */
+.social-icons{
+    display: flex;
+    gap: 10px;
+    visibility: hidden;
+}
+.blog:hover .social-icons{
+    visibility: visible;
+}
+
+
+.icon:hover .fab{
+    background-color: coral;
+}
+
+/* pagination */
+.pagination{
+    display: flex;
+    gap: 5px;
+}
+.page-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
 
 /*----------------
     Media Query
