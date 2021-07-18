@@ -1,0 +1,54 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.medium-font-weight{
+    font-weight: 600;
+}
+
+
+/* Header part */
+header{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("../images/main-banner.webp");
+    /* background-position: center; */
+    background-size:cover;
+}
+/* navigation bar */
+
+
+/* welcome message section */
+.md-letter-spacing{
+    font-size: 11em;
+    letter-spacing: 5px;
+}
+
+
+
+/*----------------
+    Media Query
+-------------------*/
+
+/* tablet devices */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .md-letter-spacing{
+        font-size: 6em;
+        letter-spacing: 5px;
+    }
+}
+
+/* mobile devices */
+@media only screen and (max-width: 575px) {
+    header{
+        background-position: center;
+    }
+    .md-letter-spacing{
+        font-size: 3em;
+        letter-spacing: 5px;
+    }
+}
